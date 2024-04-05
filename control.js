@@ -28,6 +28,13 @@ console.log
 
 //Write a function that takes in a an array of strings and use a continue statement when the item is at the second index:  let fruits= ['apple','plum','banana','strawberries','kiwi']
 let fruits= ['apple','plum','banana','strawberries','kiwi'];
+let y =0;
+while(y<4){
+    y++;
+    if(y % 2)
+    continue;
+}
+console.log(fruits[y])
 
 
 
